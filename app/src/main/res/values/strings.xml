@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Address Location</string>
+    <string name="b_getLocation">Get Current Location</string>
+    <string name="tv_address">Address</string>
+    <string name="tv_gps">GPS</string>
+</resources>
