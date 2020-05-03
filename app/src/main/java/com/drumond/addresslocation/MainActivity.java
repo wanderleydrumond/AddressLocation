@@ -93,11 +93,13 @@ public class MainActivity extends AppCompatActivity {
                             int latestLocationIndex = locationResult.getLocations().size() - 1;
                             double latitude = locationResult.getLocations().get(latestLocationIndex).getLatitude();
                             double longitude = locationResult.getLocations().get(latestLocationIndex).getLongitude();
+                            double altitude = locationResult.getLocations().get(latestLocationIndex).getAltitude();
                             textView_gps.setText(
                                     String.format(
-                                            "Latitude: %s\nLongitude: %s",
+                                            "Latitude: %s\nLongitude: %s\nAltitude: %s",
                                             latitude,
-                                            longitude
+                                            longitude,
+                                            altitude
                                     )
                             );
 
