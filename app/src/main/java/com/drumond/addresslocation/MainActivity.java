@@ -34,10 +34,10 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        inicialize();
+        initialise();
     }
 
-    public void inicialize() {
+    public void initialise() {
         resultReceiver = new AddressResultReceiver(new Handler());
 
         textView_gps = findViewById(R.id.tv_gps);
